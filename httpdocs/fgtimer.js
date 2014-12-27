@@ -1,0 +1,108 @@
+var canvasShow = (
+function(window)
+{
+    var show, slide_list;
+ 
+    function init(id) 
+    {
+        show = $(id);
+        slide_list = show.down('ul');             
+ 
+        slide_list.select('li:not(:first)').invoke('hide');
+
+        runShow();
+    }
+ 
+    function runShow() 
+    {
+        var showLoop = setInterval
+        ( 
+            function()
+            {
+                var first = slide_list.select('li').first();
+                first.hide().next().show();
+                slide_list.insert(first);
+            },
+            3000
+        );
+    }
+ 
+    return 
+    {
+        init: init
+    };
+ 
+}(window)
+);
+ 
+Event.observe(
+                window,
+                'load',
+                function() 
+                {
+                    canvasShow.init('slideshow');
+                }
+            );
+            
+function setupTimer() 
+{
+        canvas = document.createElement('canvas_timer');             
+               
+        if (canvas.getContext && canvas.getContext('2d')) 
+        {
+            canvas.width    = 30;
+            canvas.height   = 30;
+ 
+            ctx = canvas.getContext('2d');
+            ctx.strokeStyle = 'rgba(255,255,255,.8)';
+            ctx.lineCap     = 'butt';  
+            ctx.lineWidth   = 4;
+            canvas.writeAttribute('class','timer');
+            show.insert(canvas);
+        } 
+        else 
+        { 
+                canvas = false;
+        }
+}
+
+function drawArc(startAngle,endAngle) 
+{
+        var drawingArc = true;
+        ctx.beginPath();               
+        ctx.arc(15,15,10, Math.PI/180)*(startAngle-90),(Math.PI/180)*(endAngle-90), false);    
+        ctx.stroke();
+        drawingArc = false;            
+}            
+
+function runTimer() 
+{
+    clearCanvas();
+    var start    = (new Date).getTime(), 
+        duration = 3000 * 0.75,
+        finish   = start + duration;            
+                                   
+     
+    var tInterval = setInterval
+    (
+        function()
+        {
+            clearCanvas();
+            canvas.removeClassName('canvas-hidden');
+     
+            var currTime = (new Date).getTime();
+            var pos  = currTime>finish ? 1 : (currTime-start)/duration;    
+            var seg  = Math.floor(356 * pos);       // provides end Angle in degrees
+     
+            drawArc(-4,seg);
+    
+            if (pos >=1) 
+            { 
+                clearInterval(tInterval);
+                resetTimer();
+            }
+        },
+        50
+    )          
+}
+

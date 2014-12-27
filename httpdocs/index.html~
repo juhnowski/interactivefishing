@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+<meta name="google-site-verification" content="hChRAFIyIDQrPfYM2GzB86UYMXW_Am07D_ftk8CSHZA" />
+		<title>Игра -=Рыбалка=- Демо</title>
+		
+                 <meta charset="utf-8">
+                		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style type="css">
+			body {
+				background-color: rgb(200,200,200);
+				margin: 0px;
+				overflow: hidden;
+			}
+
+			#info {
+				position: absolute;
+				top: 0px; width: 100%;
+				color: #ffffff;
+				padding: 5px;
+				font-family:Monospace;
+				font-size:13px;
+				font-weight: bold;
+				text-align:center;
+			}
+
+			a {
+				color: #ffffff;
+			}
+		</style>
+	</head>
+	<body>
+<h1> 3D Панорама - 6 кадров</h1>
+
+<h2> Исходные данные</h2>
+  <table cellspacing="2" cellpadding="3" border="0" width="50%">
+   <tr>
+    <td width="25%">&nbsp;</td>
+    <td width="25%">
+     <img src="py.jpg" height="200" width="200"/>
+    </td>
+    <td width="25%">&nbsp;</td>
+    <td width="25%">&nbsp;</td>
+   </tr><tr>
+    <td width="25%">
+     <img src="nx.jpg" height="200" width="200"/>
+    </td>
+    <td width="25%">
+     <img src="pz.jpg" height="200" width="200"/>
+    </td>
+    <td width="25%">
+     <img src="px.jpg" height="200" width="200"/>
+    </td>
+    <td width="25%">
+     <img src="nz.jpg" height="200" width="200"/>
+    </td>
+   </tr><tr>
+    <td width="25%">&nbsp;</td>
+    <td width="25%">
+     <img src="ny.jpg" height="200" width="200"/>
+    </td>
+    <td width="25%">&nbsp;</td>
+    <td width="25%">&nbsp;</td>
+   </tr>
+  </table>
+
+<h2> 
+   <a href="canvas_geometry_panorama.html">Результат</a>
+</h2>
+<hr>
+<h1> 3D Панорама - Панорамное фото</h1>
+<h2> Исходные данные</h2>
+<img src="room_sm.png" height="200" width="800"/>
+<h2><a href="webgl_panorama_equirectangular.html">Результат</a></h2>
+
+<hr>
+<h1>Плоское видео</h1>
+<h2>Исходные данные </h2>
+
+<video width="320" height="240" controls="controls">
+			<source src="z3.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+			<source src="z3.ogg" type='video/ogg; codecs="theora, vorbis"'>
+  Your browser does not support the video tag.
+</video>
+
+<h2><a href="canvas_materials_video.html">Результат</a></h2>
+
+<hr>
+<h1>Панорамное видео</h1>
+<h2>Исходные данные </h2>
+
+<video width="720" height="214" controls="controls">
+			<source src="video_4k.mp4" type='video/mp4;'>
+			<source src="video_4k.ogg" type='video/ogg; codecs="theora, vorbis"'>
+  Your browser does not support the video tag.
+</video>
+
+<h2><a href="http://interactivefishing.tv/webgl_panoram_video.html">Результат</a></h2>
+<h2><a href="http://interactivefishing.tv/webgl_panoram_video_sm.html">В низком качестве</a></h2>
+ </body>
+</html>

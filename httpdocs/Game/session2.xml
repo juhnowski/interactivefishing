@@ -1,0 +1,307 @@
+﻿<settings>
+<!-- Сойства заголовка_ -->
+		<header_image>http://interactivefishing.tv:8080/images/pl.gif</header_image> <!-- бэкграунд заголовка-->
+		<header_height>60</header_height> <!-- высота заголовка -->
+		
+		<username>Сергей Петров</username> <!-- Имя пользователя-->
+		<username_x>10</username_x> <!-- координата X надписи ИМЯ ПОЛЬЗОВАТЕЛЯ -->
+		<username_y>20</username_y> <!-- координата Y надписи ИМЯ ПОЛЬЗОВАТЕЛЯ -->
+		<cast_x>130</cast_x> <!-- координата X надписи CAST, значение Y = username_y -->
+		<fish_x>180</fish_x> <!-- координата X надписи FISH, значение Y = username_y -->
+		<m_x>230</m_x> <!-- координата X надписи масса улова, значение Y = username_y -->
+		
+		<timer>720000</timer> <!-- значение игрового таймера в миллисекундах-->
+		<timer_x>910</timer_x> <!-- координата X надписи ТАЙМЕР -->
+		<timer_y>42</timer_y> <!-- координата Y надписи ТАЙМЕР -->
+		
+		<cast>5</cast> <!-- Количество забросов-->
+		<fish>0</fish> <!-- Количество пойманной рыбы-->
+		<m>0</m> <!-- Масса улова-->
+		
+		<bait_image>http://interactivefishing.tv:8080/images/bait.gif</bait_image> <!--  Иконка наживки-->
+		<bait_x>280</bait_x> <!-- Координата x левого верхнего угла иконки наживки-->
+		<bait_y>2</bait_y> <!-- Координата y левого верхнего угла иконки наживки-->
+		
+		<twitching_x>340</twitching_x> <!-- Координата x левого верхнего угла надписи Twitching-->
+		<twitching_y>49</twitching_y> <!-- Координата y левого верхнего угла надписи Twitching-->
+		<twitching_width>80</twitching_width><!-- Ширина надписи Twitching -->
+		
+		<jerking_x>420</jerking_x> <!-- Координата x левого верхнего угла надписи Jerking-->
+		<jerking_y>49</jerking_y> <!-- Координата y левого верхнего угла надписи Jerking-->
+		<jerking_width>66</jerking_width> <!-- Ширина текста Jerking -->
+		
+		<walking_dog_x>490</walking_dog_x> <!-- Координата x левого верхнего угла надписи Walking Dog-->
+		<walking_dog_y>49</walking_dog_y> <!-- Координата y левого верхнего угла надписи Walking Dog-->
+		<walking_dog_width>104</walking_dog_width><!-- Ширина текста Walking Dog -->
+		
+		<uniform_x>600</uniform_x> <!-- Координата x левого верхнего угла надписи Uniform-->
+		<uniform_y>49</uniform_y> <!-- Координата y левого верхнего угла надписи Uniform-->
+		<uniform_width>66</uniform_width> <!-- Ширина текста Uniform -->
+		
+		<graphik_image>http://interactivefishing.tv:8080/images/graphik.gif</graphik_image> <!-- Бэкграунд графика-->
+		<graphik_x>340</graphik_x> <!-- Координата x левого верхнего угла графика-->
+		<graphik_y>2</graphik_y> <!-- Координата y левого верхнего угла графика-->
+		<graphik_height>34</graphik_height> <!-- Высота графика -->
+		<graphik_width>320</graphik_width> <!-- Ширина графика -->
+		
+		<coil_image>http://interactivefishing.tv:8080/images/coil.png</coil_image> <!-- Бэкгроунд катушки-->
+		<coil_x>670</coil_x>  <!-- Координата x левого верхнего угла катушки-->
+		<coil_y>2</coil_y> <!-- Координата y левого верхнего угла катушки-->
+		
+		<length>19.4</length> <!-- длиня лески-->
+		<length_caption_x>746</length_caption_x> <!-- Координата x левого верхнего угла надписи ДЛИНА-->
+		<length_caption_y>20</length_caption_y> <!-- Координата y левого верхнего угла надписи ДЛИНА-->
+		<length_value_x>740</length_value_x> <!-- Координата x левого верхнего угла значения ДЛИНА-->
+		<length_value_y>39</length_value_y> <!-- Координата y левого верхнего угла значения ДЛИНА-->
+		
+ 		<sel_small_image>http://interactivefishing.tv:8080/images/sel_small.png</sel_small_image> <!-- Короткая выделенная область - отрисовывавается в заголовке для выделения значения ДЛИНА ЛЕСКИ-->
+ 		<sel_small_x>732</sel_small_x> <!-- Координата x левого верхнего угла области выделения -->
+ 		<sel_small_y>24</sel_small_y> <!-- Координата x левого верхнего угла области выделения -->
+ 		<sel_small_h>20</sel_small_h> <!-- Высота области выделения -->
+ 		<sel_small_w>76</sel_small_w> <!-- Ширина области выделения -->
+ 
+		<sel_medium_image>http://interactivefishing.tv:8080/images/sel_medium.png</sel_medium_image> <!-- Выделенная область средней дины - отрисовывавается в заголовке для выделения значения СПОСОБ ПРОВОДКИ-->
+ 		<sel_medium_x>336</sel_medium_x> <!-- Координата x левого верхнего угла области выделения -->
+ 		<sel_medium_y>36</sel_medium_y> <!-- Координата x левого верхнего угла области выделения -->
+ 		<sel_medium_h>20</sel_medium_h> <!-- Высота области выделения -->
+ 		<sel_medium_w>80</sel_medium_w> <!-- Ширина области выделения -->
+		
+		<sel_long_image>http://interactivefishing.tv:8080/images/sel_long.png</sel_long_image> <!-- Длинная выделенная область - отрисовывавается в заголовке для выделения КОЛИЧЕСТВО ЗАБРОСОВ, УЛОВ-->
+ 		<sel_long_x>122</sel_long_x> <!-- Координата x левого верхнего угла области выделения -->
+ 		<sel_long_y>4</sel_long_y> <!-- Координата x левого верхнего угла области выделения -->
+ 		<sel_long_h>20</sel_long_h> <!-- Высота области выделения -->
+ 		<sel_long_w>154</sel_long_w> <!-- Ширина области выделения -->		
+		
+		<tackle_image>http://interactivefishing.tv:8080/images/tackle.png</tackle_image> <!-- Бэкгроунд удочки-->
+		<tackle_x>820</tackle_x> <!-- Координата x левого верхнего угла монитора удочки-->
+		<tackle_y>2</tackle_y> <!-- Координата y левого верхнего угла монитора удочки-->
+
+		<!-- Выбор приманки-->
+		<sel_bait_image>http://interactivefishing.tv:8080/images/sel_bait.png</sel_bait_image>
+		<sel_bait_x>280</sel_bait_x>
+		<sel_bait_y>60</sel_bait_y>
+		<sel_bait_width>306</sel_bait_width>
+		<sel_bait_height>285</sel_bait_height>		
+		<bait_item_count>2</bait_item_count> <!-- Количество приманок доступных для выбора -->
+
+		<bait_item_image_1>http://interactivefishing.tv:8080/images/superbaita.png</bait_item_image_1> <!-- URL иконки с приманкой-->
+		<bait_item_x_1>5</bait_item_x_1> <!-- Координата X левого вернего угла в панели диалога выбора приманки-->
+		<bait_item_y_1>37</bait_item_y_1> <!-- Координата Y левого вернего угла в панели диалога выбора приманки-->
+		<bait_item_width_1>140</bait_item_width_1> <!-- Ширина иконки -->
+		<bait_item_heigth_1>240</bait_item_heigth_1> <!-- Высота иконки -->
+
+		<bait_item_image_2>http://interactivefishing.tv:8080/images/superbaitbf.png</bait_item_image_2> <!-- URL иконки с приманкой-->
+		<bait_item_x_2>145</bait_item_x_2> <!-- Координата X левого вернего угла в панели диалога выбора приманки-->
+		<bait_item_y_2>37</bait_item_y_2> <!-- Координата Y левого вернего угла в панели диалога выбора приманки-->
+		<bait_item_width_2>140</bait_item_width_2> <!-- Ширина иконки -->
+		<bait_item_heigth_2>240</bait_item_heigth_2> <!-- Высота иконки -->
+		
+
+		<!-- Блок интернационализации -->
+		<i18n_cast>cast</i18n_cast>
+		<i18n_fish>fish</i18n_fish>
+		<i18n_m>kg</i18n_m>
+		<i18n_twitching>Twitching</i18n_twitching>
+		<i18n_jerking>Jerking</i18n_jerking>
+		<i18n_walking_dog>Walking Dog</i18n_walking_dog>
+		<i18n_uniform>Uniform</i18n_uniform>
+		<i18n_length>Length</i18n_length>
+		<i18n_length_m>m</i18n_length_m>
+		<i18n_pulse>in minute</i18n_pulse> <!-- локализованая строка размерности пульса-->
+
+		<!-- Шрифты -->
+		<!-- base_font - основной шрифт для надписей-->
+		<base_font_name>Serif</base_font_name>
+		<base_font_size>16</base_font_size>
+		<base_font_style>1</base_font_style>
+
+		<!-- time_font - шрифт для таймера-->
+		<time_font_name>Serif</time_font_name>
+		<time_font_size>36</time_font_size>
+		<time_font_style>1</time_font_style>
+
+		<!-- footer_font - шрифт для надписей нижнего колонтитула-->
+		<footer_font_name>Serif</footer_font_name>
+		<footer_font_size>18</footer_font_size>
+		<footer_font_style>1</footer_font_style>
+
+<!-- Свойства меню-->
+		<menu_image>http://interactivefishing.tv:8080/images/menu.png</menu_image> <!-- бэкгроунд меню-->
+		<menu_width_open>80</menu_width_open><!-- Ширина панели меню в открытом состоянии --> 
+		<menu_width_close>30</menu_width_close> <!-- Ширина панели меню в закрытом состоянии -->
+		<menu_height>300</menu_height> <!-- Высота панели меню -->
+		<menu_tiks>20</menu_tiks> <!-- Количество циклов отрисовки меню при открытии, закрытии -->
+		<menu_tiks_sleep>25</menu_tiks_sleep> <!--  Пауза при цикле отрисовки, мсек -->
+		<menu_alfa>0.5F</menu_alfa> <!-- Прозрачность бэкгроунда меню -->
+
+		<menu_count>5</menu_count>
+
+		<!-- Первая кнопка -->
+		<mnu_image_1>http://interactivefishing.tv:8080/images/c1.png</mnu_image_1> <!-- бэкгроунд кнопки -->
+		<mnu_x_1>20</mnu_x_1>  <!-- координата x левого верхнего угла кнопки на пенели меню -->
+		<mnu_y_1>30</mnu_y_1>  <!-- координата y левого верхнего угла кнопки на пенели меню -->
+		<mnu_url_1>http://interactivefishing.tv:8080/session1.xml</mnu_url_1> <!-- ссылка на выполнение команды -->
+
+		<!-- Вторая кнопка -->
+		<mnu_image_2>http://interactivefishing.tv:8080/images/c2.png</mnu_image_2> <!-- бэкгроунд кнопки -->
+		<mnu_x_2>20</mnu_x_2>  <!-- координата x левого верхнего угла кнопки на пенели меню -->
+		<mnu_y_2>80</mnu_y_2>  <!-- координата y левого верхнего угла кнопки на пенели меню -->
+		<mnu_url_2>http://interactivefishing.tv:8080/session2.xml</mnu_url_2> <!-- ссылка на выполнение команды -->
+
+		<!-- Третья кнопка -->
+		<mnu_image_3>http://interactivefishing.tv:8080/images/c3.png</mnu_image_3> <!-- бэкгроунд кнопки -->
+		<mnu_x_3>20</mnu_x_3>  <!-- координата x левого верхнего угла кнопки на пенели меню -->
+		<mnu_y_3>130</mnu_y_3>  <!-- координата y левого верхнего угла кнопки на пенели меню -->
+		<mnu_url_3>http://interactivefishing.tv:8080/session3.xml</mnu_url_3> <!-- ссылка на выполнение команды -->
+
+		<!-- Четвертая кнопка -->
+		<mnu_image_4>http://interactivefishing.tv:8080/images/c4.png</mnu_image_4> <!-- бэкгроунд кнопки -->
+		<mnu_x_4>20</mnu_x_4>  <!-- координата x левого верхнего угла кнопки на пенели меню -->
+		<mnu_y_4>180</mnu_y_4>  <!-- координата y левого верхнего угла кнопки на пенели меню -->
+		<mnu_url_4>http://interactivefishing.tv:8080/session4.xml</mnu_url_4> <!-- ссылка на выполнение команды -->
+
+		<!-- Пятая кнопка -->
+		<mnu_image_5>http://interactivefishing.tv:8080/images/c5.png</mnu_image_5> <!-- бэкгроунд кнопки -->
+		<mnu_x_5>20</mnu_x_5>  <!-- координата x левого верхнего угла кнопки на пенели меню -->
+		<mnu_y_5>230</mnu_y_5>  <!-- координата y левого верхнего угла кнопки на пенели меню -->
+		<mnu_url_5>http://interactivefishing.tv:8080/session5.xml</mnu_url_5> <!-- ссылка на выполнение команды -->
+
+<!-- Свойства футера -->
+		<footer_heigth>40</footer_heigth> <!-- Высота колонтитула -->
+		<!-- Сканер камеры-->
+                <footer_camera_x>870</footer_camera_x> <!-- Координата X верхнего левого угла параметров камеры -->
+                <footer_camera_y>700</footer_camera_y> <!-- Координата Y верхнего левого угла параметров камеры -->
+
+		<!-- Сканер пульса -->
+		<pulse_image>http://interactivefishing.tv:8080/images/pulse.png</pulse_image> <!-- URL бэкгроунда сканера пульса -->
+		<pulse>95</pulse> <!-- значение пульса-->
+		<pulse_x>660</pulse_x> <!-- Координата X левого верхнего угла бэкграунда сканера пульса -->
+		<pulse_y>685</pulse_y> <!-- Координата Y левого верхнего угла бэкграунда сканера пульса -->
+		<pulse_text_x>700</pulse_text_x>  <!-- Координата X текста сканера -->
+		<pulse_text_y>700</pulse_text_y>  <!-- Координата Y текста сканера -->
+		<pulse_width>160</pulse_width> <!--  Ширина сканера пульса -->
+		<pulse_height>20</pulse_height> <!-- Высота сканера пульса -->
+
+		<!-- Сканер натяжения лески -->
+		<i18n_tension>Tension of line</i18n_tension> <!-- Интернационализированная строка натяжение лески-->
+		<tension_image>http://interactivefishing.tv:8080/images/tension.png</tension_image> <!-- Бэкгроунд сканера натяжение лески-->
+		<tension_x>220</tension_x> <!-- Координата X левого верхнего угла бэкграунда сканера -->
+		<tension_text_x>50</tension_text_x> <!-- Координата X текста сканера -->
+		<tension_y>685</tension_y> <!-- Координата Y левого верхнего угла бэкграунда сканера -->
+		<tension_text_y>700</tension_text_y> <!-- Координата Y текста сканера -->
+                <tension_width>150</tension_width>  <!-- Ширина бэкграунда сканера -->
+		<tension_height>20</tension_height> <!-- Высота бэкграунда сканера -->
+
+<!-- Свойства камеры -->
+		<h>2</h> 			<!--высота расположения камеры, м-->		
+		<theta>45</theta>	<!--угол наклона камеры, градусы-->
+		<f>20</f>			<!--условное расстояние от камеры до плоскости экрана, м-->
+		<gama_k>120</gama_k> <!--угол обзора камеры, градусы-->
+		
+<!-- свойства целеуказателя -->
+		<color_r_selected>1.0F</color_r_selected> <!--R-канал цвета выбранного целеуказателя-->
+		<color_g_selected>0.0F</color_g_selected> <!--G-канал цвета выбранного целеуказателя-->
+		<color_b_selected>1.0F</color_b_selected> <!--B-канал цвета выбранного целеуказателя-->
+		<color_a_selected>0.5F</color_a_selected> <!--A-канал цвета выбранного целеуказателя-->
+
+		<color_r_enabled>1.0F</color_r_enabled> <!--R-канал цвета активного целеуказателя-->
+		<color_g_enabled>1.0F</color_g_enabled> <!--G-канал цвета активного целеуказателя-->
+		<color_b_enabled>0.0F</color_b_enabled> <!--B-канал цвета активного целеуказателя-->
+		<color_a_enabled>0.5F</color_a_enabled> <!--A-канал цвета активного целеуказателя-->
+
+		<color_r_disabled>1.0F</color_r_disabled> <!--R-канал цвета не активного целеуказателя-->
+		<color_g_disabled>0.0F</color_g_disabled> <!--G-канал цвета не активного целеуказателя-->
+		<color_b_disabled>1.0F</color_b_disabled> <!--B-канал цвета не активного целеуказателя-->
+		<color_a_disabled>0.5F</color_a_disabled> <!--A-канал цвета не активного целеуказателя-->
+		
+		<abr>1</abr>   <!--AimBigRadius - большой радиус целеуказателя, м-->
+		<asr>0.5</asr> <!--AimSmallRadius - малый радиус целеуказателя, м-->
+		
+		
+		<!-- свойства экрана -->
+		<image>http://interactivefishing.tv:8080/images/scene2/1.png</image> <!--панорама-->
+		<!--Ниже два парамтра нужны для валидации загруженой картинки-->
+		<ih>1732</ih> <!--высота панарамы-->
+		<iw>3012</iw> <!--ширина панорамы-->
+
+		<!-- Управление -->
+		<delta_zoom>0.02</delta_zoom> <!--шаг зума, на одно вращение колесика мыши-->
+		<max_zoom>4.0</max_zoom>   <!--максимально возможный зум-->
+		<min_zoom>0.4</min_zoom>   <!--минимально возможный зум-->		
+		<prep_ticks>100</prep_ticks><!-- количество циклов в перемещении картинки перед показом видео-->
+		<prep_ticks_time>10</prep_ticks_time> <!-- время цикла, мсек-->
+		
+		<!-- Исходное положение экрана -->		
+		<initial_sx>400</initial_sx>
+		<initial_sy>100</initial_sy>
+		<initial_zoom>0.8</initial_zoom>
+
+		<!--Описание целей-->
+		<target_count>3</target_count><!--количество целей на экране-->
+		
+		<!--Первая цель-->
+		<name_1>Отмель</name_1>
+		<description_1>Песчаное дно</description_1>
+
+		<tx_1>-2</tx_1> <!--Координата x цели, м-->
+		<ty_1>12</ty_1> <!--Координата y цели, м-->
+		<stx_1>11800</stx_1> <!--Координата x цели, пиксели-->
+		<sty_1>2700</sty_1> <!--Координата y цели, пиксели-->
+		
+		<sabh_1>8</sabh_1> <!--высота большого эллипса целеуказателя, пиксели-->
+		<sabw_1>40</sabw_1> <!--ширина большого эллипса целеуказателя, пиксели-->
+		<sash_1>4</sash_1> <!--высота малого эллипса целеуказателя, пиксели-->
+		<sasw_1>18</sasw_1> <!--ширина малого эллипса целеуказателя, пиксели-->
+		
+		<video_1>http://interactivefishing.tv:8080/video/z1.mp4</video_1> <!--видео для 1й цели-->
+		<video_duration_1>60</video_duration_1> <!--продолжительность видео, сек-->
+		<vsx_1>11300</vsx_1> <!--координата X левого верхнего угла экрана, на который накладывается видео, пиксели-->
+		<vsy_1>2560</vsy_1>  <!--координата Y левого верхнего угла экрана, на который накладывается видео, пиксели-->
+		<vsz_1>1.4</vsz_1>   <!--зум экрана на который накладывается видео-->
+		<hasFish_1>false</hasFish_1> <!--Пееменная показывает результат заброса в эту цель-->
+		<mFish_1>0</mFish_1> <!-- масса рыбы, кг -->
+
+		<!-- Вторая цель -->
+		<name_2>Яма</name_2>
+		<description_2>Возможны коряги</description_2>
+
+		<tx_2>0</tx_2> <!--Координата x цели, м-->
+		<ty_2>10</ty_2> <!--Координата y цели, м-->
+		<stx_2>12100</stx_2> <!--Координата x цели, м-->
+		<sty_2>2800</sty_2> <!--Координата y цели, м-->
+
+		<sabh_2>10</sabh_2> <!--высота большого эллипса целеуказателя, пиксели-->
+		<sabw_2>60</sabw_2> <!--ширина большого эллипса целеуказателя, пиксели-->
+		<sash_2>5</sash_2> <!--высота малого эллипса целеуказателя, пиксели-->
+		<sasw_2>30</sasw_2> <!--ширина малого эллипса целеуказателя, пиксели-->
+
+		<video_2>http://interactivefishing.tv:8080/video/z2.mp4</video_2> <!--видео для 2й цели-->
+		<video_duration_2>46</video_duration_2> <!--продолжительность видео, сек-->
+		<vsx_2>11380</vsx_2>  <!--координата X левого верхнего угла экрана, на который накладывается видео, пиксели-->
+		<vsy_2>2360</vsy_2>  <!--координата Y левого верхнего угла экрана, на который накладывается видео, пиксели-->
+		<vsz_2>0.65</vsz_2>   <!--зум экрана на который накладывается видео-->
+		<hasFish_2>false</hasFish_2> <!--Пееменная показывает результат заброса в эту цель-->
+		<mFish_2>0</mFish_2> <!-- масса рыбы, кг -->		
+		
+		<!--Третья цель-->
+		<name_3>Заводь</name_3>
+		<description_3>Илистое дно</description_3>
+
+		<tx_3>2</tx_3> <!--Координата x цели, м-->
+		<ty_3>8</ty_3> <!--Координата y цели, м-->
+		<stx_3>11320</stx_3> <!--Координата x цели, м-->
+		<sty_3>2780</sty_3> <!--Координата y цели, м-->
+
+		<sabh_3>9</sabh_3> <!--высота большого эллипса целеуказателя, пиксели-->
+		<sabw_3>45</sabw_3> <!--ширина большого эллипса целеуказателя, пиксели-->
+		<sash_3>5</sash_3> <!--высота малого эллипса целеуказателя, пиксели-->
+		<sasw_3>20</sasw_3> <!--ширина малого эллипса целеуказателя, пиксели-->
+
+		<video_3>http://interactivefishing.tv:8080/video/z3.mp4</video_3> <!--видео для 3й цели-->
+		<video_duration_3>58</video_duration_3> <!--продолжительность видео, сек-->
+		<vsx_3>11300</vsx_3>  <!--координата X левого верхнего угла экрана, на который накладывается видео, пиксели-->
+		<vsy_3>2580</vsy_3>  <!--координата Y левого верхнего угла экрана, на который накладывается видео, пиксели-->
+		<vsz_3>0.6</vsz_3>   <!--зум экрана на который накладывается видео-->
+		<hasFish_3>true</hasFish_3> <!--Пееменная показывает результат заброса в эту цель-->
+		<mFish_3>1.6</mFish_3> <!-- масса рыбы, кг -->
+</settings>
